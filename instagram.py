@@ -8,7 +8,7 @@ t1, t2 = st.columns([1,3])
 with t1: 
     st.button('Refresh')
 with t2:
-    total_image =  st.slider("選一個數字", 9,99, step=3)
+    total_image =  st.slider("選一個數字", 1,10, step=3)
 
 col1, col2 = st.columns([1,3])
 # st.slider("Generate photos", 3,100, step=3)
